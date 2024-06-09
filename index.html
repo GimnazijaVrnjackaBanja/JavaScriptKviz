@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kviz</title>
+    <link rel="stylesheet" href="stilovi.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <div id="question-container">
+            <h2 id="question">Question text</h2>
+            <div id="answer-buttons" class="btn-container">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <button id="next-btn" class="btn">Sledeće pitanje</button>
+        <div id="result-container" class="hidden">
+            <h2>Odgovorili ste tačno na <span id="score">0</span> od 10 pitanja.</h2>
+            <button id="restart-btn" class="btn">Pokušaj ponovo</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
